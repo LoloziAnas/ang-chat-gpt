@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { map } from 'rxjs';
 
-const KEY = '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'
+const KEY = ''
    /* 
     
    curl https://api.openai.com/v1/chat/completions -H "Content-Type: application/json" -H "Authorization: Bearer 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" -d '{"model": "gpt-3.5-turbo","messages": [{"role": "system", "content": "You are a helpful assistant."}, {"role": "user", "content": "Hello!"}]}'
